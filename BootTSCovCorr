@@ -1,3 +1,6 @@
+# BootTSCovCorr computes the asymptotic covariance using moving block bootstrap
+# input: X (n by p) and B (number of bootstrap replications)
+
 BootTSCovCorr<-function(X, B=500){
   #Step 0: Set up
   library(rlist)
